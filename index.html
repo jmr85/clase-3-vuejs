@@ -14,18 +14,18 @@
 </head>
 
 <body>
-    <div id="app">
+    <div id="app" class="fondo" :class=" modoOscuro ? 'modo-oscuro' : 'modo-claro' ">
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <div class="fondo" :class=" modoOscuro ? 'modo-oscuro' : 'modo-claro' ">
+                    <!-- <div class="fondo" :class=" modoOscuro ? 'modo-oscuro' : 'modo-claro' "> -->
                         <h1>{{titulo}}</h1>
                         <p v-show="modoOscuro">Hola coders</p>
                         <button class="btn btn-primary" @click="cambioFondo">
                             <span v-if="!modoOscuro">Modo Oscuro</span>
                             <span v-else>Modo claro</span>
                         </button>
-                    </div>
+                    <!-- </div> -->
                     <div class="card m-3">
                         <h2><span class="badge bg-secondary">Agregar tarea</span></h2>                    
                         <input v-model="inputTitulo" type="text">
