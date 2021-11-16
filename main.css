@@ -13,9 +13,16 @@
 }
 .gris{
     background-color: rgb(129, 127, 127);
+    
 }
 .blanco{
     background-color: #fff;
+}
+.txt-negro{
+    color: #000;
+}
+.txt-blanco {
+    color: #fff;
 }
 fondo {
     background-color: red;

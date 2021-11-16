@@ -30,7 +30,7 @@
                         <h2><span class="badge bg-secondary">Agregar tarea</span></h2>                    
                         <input v-model="inputTitulo" type="text">
                         <input v-model="inputDescripcion" type="text">
-                        <label for="cbox2">Importante</label>
+                        <label for="cbox2" :class=" modoOscuro && 'txt-negro' ">Importante</label>
                         <input type="checkbox" id="cbox2" v-model="inputImportante"> 
                         <button class="btn btn-primary mt-2" @click="guardarTarea()">Agregar tarea</button>
                     </div>
