@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.modo-oscuro{
+    background-color: #000;
+    color: #fff;
+}
+.modo-claro{
+    background-color: #fff;
+    color: #000;
+}
+.gris{
+    background-color: rgb(129, 127, 127);
+}
+.blanco{
+    background-color: #fff;
+}
+fondo {
+    background-color: red;
+    min-height: 100vh;
+}
